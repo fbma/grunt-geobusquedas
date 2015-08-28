@@ -1,0 +1,14 @@
+{
+  "name": "grunt-geobusquedas",
+  "version": "1.0.0",
+  "description": "Chequea o construye el autocompletado de los cores",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test command"
+  },
+  "author": "fbma",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
