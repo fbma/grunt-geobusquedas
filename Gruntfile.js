@@ -6,7 +6,9 @@ module.exports = function(grunt){
       sepim_montefrio: ['h'],
       sepim_alajar: ['h'],
       sepim_vegasdg: ['h'],
-      sepim_almensilla: ['hacienda']
+      sepim_almensilla: ['hacienda'],
+      sepim_hinojales: ['rest'],
+      sepim_sbarrameda: ['igl']
     },
     
      buildAuto: {
@@ -15,7 +17,9 @@ module.exports = function(grunt){
       sepim_montefrio: ['masterHost','slaveHost'],
       sepim_alajar: ['masterHost','slaveHost'],
       sepim_vegasdg: ['masterHost','slaveHost'],
-      sepim_almensilla: ['masterHost','slaveHost']
+      sepim_almensilla: ['masterHost','slaveHost'],
+      sepim_hinojales: ['masterHost','slaveHost'],
+      sepim_sbarrameda: ['masterHost','slaveHost']
     },
 
     endpoint: {
