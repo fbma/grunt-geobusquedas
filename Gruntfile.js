@@ -8,7 +8,8 @@ module.exports = function(grunt){
       sepim_vegasdg: ['h'],
       sepim_almensilla: ['hacienda'],
       sepim_hinojales: ['rest'],
-      sepim_sbarrameda: ['igl']
+      sepim_sbarrameda: ['igl'],
+      campamentos: ['camp']
     },
     
      buildAuto: {
@@ -19,7 +20,8 @@ module.exports = function(grunt){
       sepim_vegasdg: ['masterHost','slaveHost'],
       sepim_almensilla: ['masterHost','slaveHost'],
       sepim_hinojales: ['masterHost','slaveHost'],
-      sepim_sbarrameda: ['masterHost','slaveHost']
+      sepim_sbarrameda: ['masterHost','slaveHost'],
+      campamentos: ['masterHost','slaveHost']
     },
 
     endpoint: {
