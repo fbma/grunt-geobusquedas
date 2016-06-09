@@ -11,9 +11,6 @@ module.exports = function(grunt){
       sepim_sbarrameda: ['igl'],
       campamentos: ['camp'],
       sedes: ['centro']
-      //fuentesymanantiales: ['fuente de la'],
-     // sedes: ['consejer'],
-      //sigc: ['embalse']
     },
     
      buildAuto: {
@@ -27,9 +24,6 @@ module.exports = function(grunt){
       sepim_sbarrameda: ['masterHost','slaveHost'],
       campamentos: ['masterHost','slaveHost'],
       sedes: ['masterHost','slaveHost']
-     // fuentesymanantiales: ['masterHost','slaveHost'],
-     // sedes: ['masterHost','slaveHost'],
-      //sigc: ['masterHost','slaveHost']
     },
 
     endpoint: {
