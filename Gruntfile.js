@@ -27,9 +27,9 @@ module.exports = function(grunt){
     },
 
     endpoint: {
-      host: 'http://geobusquedas-sigc.juntadeandalucia.es/geobusquedas/',
-      masterHost: 'http://geobusquedas-sigc.maestro.juntadeandalucia.es/geobusquedas/',
-      slaveHost: 'http://geobusquedas-sigc.esclavo.juntadeandalucia.es/geobusquedas/',
+      host: 'https://geobusquedas-sigc.juntadeandalucia.es/geobusquedas/',
+      masterHost: 'https://geobusquedas-sigc-maestro.juntadeandalucia.es/geobusquedas/',
+      slaveHost: 'https://geobusquedas-sigc-esclavo.juntadeandalucia.es/geobusquedas/',
       suggest: '/suggest?wt=json&spellcheck.q=',
       build: '/suggest?spellcheck.build=true&wt=json'
     }
@@ -37,7 +37,7 @@ module.exports = function(grunt){
 
   // Chequea el autocompletador de los cores
   grunt.registerMultiTask('checkAuto', 'Chequea autocompletado de cores', function() {
-    var http = require('http'),
+    var http = require('https'),
     done = this.async(),
     responses = 0;
 
@@ -81,7 +81,7 @@ module.exports = function(grunt){
   
   // Construye el autocompletador para los cores
   grunt.registerMultiTask('buildAuto', 'Chequea autocompletado de cores', function() {
-    var http = require('http'),
+    var http = require('https'),
     done = this.async(),
     responses = 0;
 
